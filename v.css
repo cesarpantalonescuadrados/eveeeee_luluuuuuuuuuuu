@@ -1,23 +1,28 @@
+
 *{
-    margin: 0;
-    padding: 0;
+
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     background-color: pink;
+
+
 }
 
-.mensaje {
+.mensaje{
     width: 100%;
     height: 30%;
     margin-top: 10%;
-    background-color: transparent;
+    background-color:transparent;
 }
-.mensaje p {
+.mensaje p{
     font-size: 2em;
     text-align: center;
-    padding: 2%;
-    font-family: cursive;
-}
+    padding: 10px;
+    font-family:cursive
 
+}
+/* Contenedor principal de la rosa */
 .rosa {
     background-color: transparent;
     position: relative;
@@ -154,6 +159,8 @@
     100% { transform: rotate(0deg); }
   }
   
+
+
 
 /* Botones */
 .botones {
