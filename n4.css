@@ -166,7 +166,7 @@
 /* Botones */
 .botones {
   margin-top: -13%;
-  margin-left: -8%;
+  margin-left: 10%;
   width: 89%;
   height: 30%;
 }
@@ -202,20 +202,7 @@
 }
 
 
-.no {
-  background-color: #ff0000; /* Color de fondo */
-  border: none; /* Sin borde */
-  color: white; /* Color del texto */
-  padding: 13px 30px; /* Espaciado interno */
-  text-align: center; /* Alineación del texto */
-  text-decoration: none; /* Sin subrayado */
-  display: inline-block; /* Mantener el botón como un elemento en línea */
-  font-size: 16px; /* Tamaño de la fuente (100% -> 16px) */
-  margin: -10px 8px; /* Margen exterior */
-  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-  border-radius: 8px; /* Bordes redondeados */
-  transition: background-color 0.3s ease; /* Animación al pasar el ratón */
-}
+
 
 .si:hover {
     background-color: #00ff11; /* Color de fondo al pasar el ratón */
