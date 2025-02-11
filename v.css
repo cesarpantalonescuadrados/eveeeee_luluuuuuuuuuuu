@@ -1,4 +1,4 @@
-@media only screen and (max-width: 480px) {
+
 *{
     margin: 0px;
     padding: 0px;
@@ -202,4 +202,38 @@
 .no:hover {
     background-color: #ff0000; /* Color de fondo al pasar el ratón */
 }
+@media only screen and (max-width: 480px) {
+    /* Estilos específicos para pantallas pequeñas */
+    .contenedor {
+        padding: 10px;
+    }
+
+    .mensaje p {
+        font-size: 1.5rem; /* Ajusta el tamaño del texto */
+    }
+
+    .rosa {
+        width: 80px;  /* Cambia el tamaño de la rosa para que sea más pequeña */
+        height: 200px;
+    }
+
+    .pétalo-arriba, .pétalo-derecha, .pétalo-izquierda, .pétalo-izquierdaa, 
+    .pétalo-derechaa, .pétalo-izquierdaaa, .pétalo-izquierd {
+        width: 30px;  /* Ajusta el tamaño de los pétalos */
+        height: 30px;
+    }
+
+    .heart {
+        width: 40px;  /* Reduce el tamaño de las imágenes de corazón */
+    }
+
+    .imagen-extra img {
+        width: 60px;  /* Ajusta la imagen extra */
+    }
+
+    .si {
+        padding: 10px 20px; /* Ajusta el tamaño del botón */
+        font-size: 14px;
+    }
 }
+
