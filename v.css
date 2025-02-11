@@ -163,9 +163,11 @@
 
 
 .botones{
+    margin-right: 24%;
     float: right;
-    width: 50%;
+    width: 39%;
     height: 30%;
+
 }
 
   .si {
