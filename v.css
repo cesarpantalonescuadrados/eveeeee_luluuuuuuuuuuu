@@ -14,7 +14,7 @@
  }
 .mensaje{
     width: 100%;
-    height: 30%;
+   height: 10%;
     margin-top: 10%;
     background-color:transparent;
 }
@@ -167,39 +167,39 @@
 
 /* Botones */
 .botones {
-      margin-left: 39%;
+     margin-top: -10%;
+  margin-left: 33%;
     width: 39%;
     height: 30%;
 }
-
 .si {
-    background-color: #26ff00;
-    border: none;
-    color: rgb(255, 255, 255);
-    padding: 3.75% 8%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 4%;
-    margin: -2.5% 5%;
-    cursor: pointer;
-    border-radius: 2%;
-    transition: background-color 0.3s ease;
+  background-color: #26ff00;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10.75% 15%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  margin: -2.5% 1%;
+  cursor: pointer;
+  border-radius: 2%;
+  transition: background-color 0.3s ease;
 }
 
 .no {
-    background-color: #ff0000;
-    border: none;
-    color: white;
-    padding: 3.75% 8%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 4%;
-    margin: -2.5% 5%;
-    cursor: pointer;
-    border-radius: 2%;
-    transition: background-color 0.3s ease;
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  padding: 10.75% 15%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  margin: -2.5% 1%;
+  cursor: pointer;
+  border-radius: 2%;
+  transition: background-color 0.3s ease;
 }
 
 .si:hover {
