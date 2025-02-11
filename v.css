@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: pink;
+
+
+}
+
+.mensaje{
+    width: 100%;
+    height: 30%;
+    margin-top: 10%;
+    background-color:transparent;
+}
+.mensaje p{
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    font-family:cursive
+
+}
+/* Contenedor principal de la rosa */
+.rosa {
+    background-color: transparent;
+    position: relative;
+    width: 50px;
+    height: 200px;
+    margin: 100px auto;
+    animation: balancear 5s infinite ease-in-out;
+  }
+  
+  /* Tallo */
+  .tallo {
+    position: absolute;
+    width: 8px;
+    height: 130px;
+    background-color: green;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    border-radius: 10px;
+  }
+  
+  /* Pétalos con diseño puntiagudo */
+  .pétalo {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 25px 0 25px;  /* Este truco crea un triángulo invertido */
+    border-color: transparent; /* El borde superior es el pétalo */
+  }
+  
+  /* Pétalo superior */
+  .pétalo-arriba {
+    width: 10%;
+    height: 50%;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background-color: yellow;
+  }
+  
+  /* Pétalo derecho */
+  .pétalo-derecha {
+    width: 10%;
+    height: 50%;
+    top: -60px;
+    right: -50px;
+    transform: rotate(45deg);
+    border-radius: 50%;
+    background-color: yellow;
+  }
+  
+  /* Pétalo izquierdo */
+  .pétalo-izquierda {
+    width: 10%;
+    height: 50%;
+    top: -60px;
+    left: -50px;
+    transform: rotate(-45deg);
+    border-radius: 50%;
+    background-color: yellow;
+  }
+
+
+  .pétalo-izquierdaa {
+    width: 10%;
+    height: 50%;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background-color: yellow;
+  }
+  .pétalo-derechaa {
+    width: 10%;
+    height: 50%;
+    top: -5px;
+    right: 50px;
+    transform: rotate(45deg);
+    border-radius: 50%;
+    background-color:  yellow;
+  }
+  
+  /* Pétalo izquierdo */
+  .pétalo-izquierdaaa {
+    width: 10%;
+    height: 50%;
+    top: -5px;
+    left: 50px;
+    transform: rotate(-45deg);
+    border-radius: 50%;
+    background-color: yellow;
+  }
+  .pétalo-izquierd {
+    width: 35%;
+    height: 25%;
+    top: -8px;
+    left: 0px;
+    transform: rotate(-45deg);
+    border-radius: 100%;
+    background-color: rgb(90, 85, 58);
+  }
+
+  /* Hojas */
+  .hoja {
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+  }
+  
+  /* Hoja izquierda */
+  .hoja-izquierda {
+    left: -30px;
+    top: 80px;
+    transform: rotate(-30deg);
+  }
+  
+  /* Hoja derecha */
+  .hoja-derecha {
+    right: -30px;
+    top: 80px;
+    transform: rotate(30deg);
+  }
+  
+  /* Animación de balanceo */
+  @keyframes balancear {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+
+
+.botones{
+    margin-right: 40%;
+    float: right;
+    width: 19%;
+    height: 30%;
+
+}
+
+  .si {
+    background-color: #26ff00; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: rgb(255, 255, 255); /* Color del texto */
+    padding: 15px 32px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mantener el botón como un elemento en línea */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin: -10px 40px; /* Margen exterior */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Animación al pasar el ratón */
+}
+.no {
+    background-color: #ff0000; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding: 15px 32px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mantener el botón como un elemento en línea */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin: -10px 2px; /* Margen exterior */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Animación al pasar el ratón */
+}
+.si:hover {
+    background-color: #00ff11; /* Color de fondo al pasar el ratón */
+}
+.no:hover {
+    background-color: #ff0000; /* Color de fondo al pasar el ratón */
+}
