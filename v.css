@@ -1,6 +1,5 @@
 
 *{
-
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -8,7 +7,11 @@
 
 
 }
-
+.contenedor{
+    width: 480px;
+    height: 720px;
+    margin: 0 auto;
+ }
 .mensaje{
     width: 100%;
     height: 30%;
@@ -118,9 +121,9 @@
     background-color: yellow;
   }
   .pétalo-izquierd {
-    width: 35%;
-    height: 25%;
-    top: -8px;
+    width: 15%;
+    height: 15%;
+    top: -5px;
     left: 0px;
     transform: rotate(-45deg);
     border-radius: 100%;
