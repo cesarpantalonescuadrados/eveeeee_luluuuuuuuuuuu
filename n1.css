@@ -6,7 +6,11 @@
 
 
 }
-
+.contenedor{
+    width: 480px;
+    height: 100%;
+    margin: 0 auto;
+ }
 .mensaje{
     width: 100%;
     height: 30%;
@@ -160,9 +164,7 @@
 
 
 .botones{
-    margin-right: 24%;
-    float: right;
-    width: 39%;
+    width: 100%;
     height: 30%;
 
 }
@@ -176,7 +178,7 @@
     text-decoration: none; /* Sin subrayado */
     display: inline-block; /* Mantener el botón como un elemento en línea */
     font-size: 16px; /* Tamaño de la fuente */
-    margin: -10px 40px; /* Margen exterior */
+    margin: -10px 70px; /* Margen exterior */
     cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
     border-radius: 8px; /* Bordes redondeados */
     transition: background-color 0.3s ease; /* Animación al pasar el ratón */
