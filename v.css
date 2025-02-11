@@ -1,3 +1,4 @@
+@media only screen and (max-width: 480px) {
 *{
     margin: 0px;
     padding: 0px;
@@ -200,4 +201,5 @@
 }
 .no:hover {
     background-color: #ff0000; /* Color de fondo al pasar el ratón */
+}
 }
