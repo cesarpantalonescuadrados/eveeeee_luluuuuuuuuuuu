@@ -161,10 +161,11 @@
   
 
 
+
 .botones{
-    margin-right: 25%;
+  margin-right: 25%;
     float: right;
-    width: 39%;
+    width: 50%;
     height: 30%;
 }
 
@@ -178,7 +179,7 @@
     text-decoration: none; /* Sin subrayado */
     display: inline-block; /* Mantener el botón como un elemento en línea */
     font-size: 16px; /* Tamaño de la fuente */
-     margin: -10px 200px; /* Margen exterior */
+    margin: -10px 200px; /* Margen exterior */
     cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
     border-radius: 8px; /* Bordes redondeados */
     transition: background-color 0.3s ease; /* Animación al pasar el ratón */
