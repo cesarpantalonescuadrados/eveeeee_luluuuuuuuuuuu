@@ -243,7 +243,7 @@
     height: 100%;
   }
   .si {
-    background-color: #ff59e6; /* Color de fondo */
+    background: linear-gradient(to right, #ffc9c9, #ff82f0, #e449ff, #9900ff); /* De rojo a amarillo, verde y azul */
     border: none; /* Sin borde */
     color: rgb(255, 255, 255); /* Color del texto */
     padding: 35px 62px; /* Espaciado interno */
