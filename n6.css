@@ -37,7 +37,7 @@
     background-color: #26ff00; /* Color de fondo */
     border: none; /* Sin borde */
     color: rgb(255, 255, 255); /* Color del texto */
-    padding: 20% 47%; /* Espaciado interno */
+    padding: 100% 100%; /* Espaciado interno */
     text-align: center; /* Alineación del texto */
     text-decoration: none; /* Sin subrayado */
     display: inline-block; /* Mantener el botón como un elemento en línea */
