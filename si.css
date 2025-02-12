@@ -242,6 +242,12 @@
     width: 100%;
     height: 100%;
   }
+.botones {
+    margin-left: 29%;
+    width: 79%;
+    height: 30%;
+  }
+  
   .si {
     background: linear-gradient(to right, #ffc9c9, #ff82f0, #e449ff, #9900ff); /* De rojo a amarillo, verde y azul */
     border: none; /* Sin borde */
